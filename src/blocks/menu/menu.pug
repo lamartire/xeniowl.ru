@@ -1,6 +1,0 @@
-mixin menu(items)
-  +b('ul').menu
-    each item in items
-      +e('li').item
-        +e('a').link(data-to=`${item.anchor}`)
-          | #{item.text}

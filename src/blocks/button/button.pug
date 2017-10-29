@@ -1,7 +1,0 @@
-mixin button(href, color)
-  if href
-    +b('a')(class=`button_${color}` href=`${href}`)
-      block
-  else
-    +b('button')(class=`button_${color}`)
-      block
