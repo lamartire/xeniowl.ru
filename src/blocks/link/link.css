@@ -1,0 +1,6 @@
+.link {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  color: var(--blue);
+}

@@ -1,0 +1,7 @@
+mixin mockup(data)
+  +b.mockup(style=`background-image: url(${data.preview})`)
+    +e.content
+      +e('h4').title
+        | #{data.title}
+      +e.date
+        | #{data.date}

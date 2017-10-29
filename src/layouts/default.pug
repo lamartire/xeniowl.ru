@@ -1,0 +1,20 @@
+include ./../../node_modules/bemto.pug/bemto
+include /blocks/head/head
+include /blocks/header/header
+include /blocks/container/container
+include /blocks/footer/footer
+include /blocks/anchor/anchor
+
++head('Simple template')
+
+body
+  +header
+  +container
+    block content
+  +anchor('contact')
+    +footer
+
+  script(src='/assets/js/app.js')
+  script(async src="https://www.googletagmanager.com/gtag/js?id=UA-67511662-2")
+  script
+    include ../counter.js

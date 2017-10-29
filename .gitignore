@@ -1,0 +1,9 @@
+node_modules/
+dist/
+dist.zip
+.idea/
+.eslintcache
+npm-debug.log
+.vscode
+yarn.lock
+package-lock.json

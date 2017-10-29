@@ -1,0 +1,18 @@
+[
+  {
+    "text": "Работы",
+    "anchor": "showcase"
+  },
+  {
+    "text": "Обо мне",
+    "anchor": "about"
+  },
+  {
+    "text": "Резюме",
+    "anchor": "resume"
+  },
+  {
+    "text": "Контакты",
+    "anchor": "contact"
+  }
+]

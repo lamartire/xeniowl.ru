@@ -1,0 +1,17 @@
+.mockups-showcase {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: var(--gap);
+}
+
+@media (max-width: 980px) {
+  .mockups-showcase {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .mockups-showcase {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

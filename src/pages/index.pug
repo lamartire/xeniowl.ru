@@ -1,0 +1,13 @@
+extends /layouts/default
+include /blocks/mockups-showcase/mockups-showcase
+include /blocks/anchor/anchor
+include /blocks/section/section
+include /blocks/about/about
+
+block content
+  +anchor('showcase')
+    +section
+      +mockups-showcase(getData('mockups'))
+  +anchor('about')
+    +section
+      +about(getData('about'))

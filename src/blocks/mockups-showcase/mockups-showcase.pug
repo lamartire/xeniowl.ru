@@ -1,0 +1,6 @@
+include /blocks/mockup/mockup
+
+mixin mockups-showcase(mockups)
+  +b('section').mockups-showcase
+    each mockup in mockups
+      +mockup(mockup)

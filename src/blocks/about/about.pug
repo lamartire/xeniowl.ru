@@ -1,0 +1,14 @@
+include /blocks/button/button
+include /blocks/anchor/anchor
+
+mixin about(paragraphs)
+  +b.about
+    +e('h2').title
+      | Привет! Меня зовут Ксения!
+    each paragraph in paragraphs
+      +e('p').info
+        | #{paragraph.text}
+    +e.button
+      +anchor('resume')
+        +button(null, 'blue')
+          | Скачать резюме

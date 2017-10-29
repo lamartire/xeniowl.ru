@@ -1,0 +1,68 @@
+.mockup {
+  position: relative;
+  display: block;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 230px;
+
+  &:before {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .15);
+  }
+
+  &:hover {
+    .mockup__content {
+      visibility: visible;
+      animation: .75s rotate;
+    }
+  }
+}
+
+.mockup__content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-image: url('/assets/images/big-hex.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 135px;
+  height: 156px;
+  padding: 35px 15px;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.4;
+  visibility: hidden;
+}
+
+.mockup__date,
+.mockup__title {
+  margin-top: auto;
+}
+
+.mockup__title {
+  color: var(--blue);
+}
+
+.mockup__date {
+  color: var(--grey);
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateY(90deg);
+  }
+}
