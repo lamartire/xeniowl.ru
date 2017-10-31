@@ -1,0 +1,27 @@
+.icon-button {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  cursor: pointer;
+  transition: opacity .25s;
+  opacity: 1;
+
+  &:hover {
+    opacity: .6;
+  }
+
+  &_fb {
+    background-image: url('/assets/images/fb.png');
+  }
+
+  &_vk {
+    background-image: url('/assets/images/vk.png');
+  }
+
+  &_ok {
+    background-image: url('/assets/images/ok.png');
+  }
+}

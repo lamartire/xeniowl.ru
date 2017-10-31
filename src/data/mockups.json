@@ -1,32 +1,50 @@
 [
   {
-    "title": "rerum qui consectetur",
-    "date": "Август 2017",
-    "preview": "/assets/images/1.jpg"
+    "title": "For Rest",
+    "date": "Октябрь 2017",
+    "preview": "/assets/images/1.png",
+    "origin": "/assets/images/origin/1.jpg"
   },
   {
-    "title": "nihil",
+    "title": "Nedvizhimost",
     "date": "Сентябрь 2017",
-    "preview": "/assets/images/2.jpg"
+    "preview": "/assets/images/2.png",
+    "origin": "/assets/images/origin/2.jpg"
   },
   {
-    "title": "omnis commodi commodi",
-    "date": "Июнь 2016",
-    "preview": "/assets/images/3.jpg"
-  },
-  {
-    "title": "sed laboriosam cumque",
+    "title": "Life Health",
     "date": "Август 2017",
-    "preview": "/assets/images/4.jpg"
+    "preview": "/assets/images/3.png",
+    "origin": "/assets/images/origin/3.jpg"
   },
   {
-    "title": "iure",
-    "date": "Январь 2017",
-    "preview": "/assets/images/5.jpg"
+    "title": "Life Health",
+    "date": "Август 2017",
+    "preview": "/assets/images/4.png",
+    "origin": "/assets/images/origin/4.jpg"
   },
   {
-    "title": "quia",
-    "date": "Декабрь 2017",
-    "preview": "/assets/images/6.jpg"
+    "title": "Nefco",
+    "date": "Июль 2017",
+    "preview": "/assets/images/5.png",
+    "origin": "/assets/images/origin/5.jpg"
+  },
+  {
+    "title": "Photografy",
+    "date": "Июнь 2017",
+    "preview": "/assets/images/6.png",
+    "origin": "/assets/images/origin/6.jpg"
+  },
+  {
+    "title": "Photografy (мобильная версия)",
+    "date": "Июнь 2017",
+    "preview": "/assets/images/7.png",
+    "origin": "/assets/images/origin/7.jpg"
+  },
+  {
+    "title": "TimePad",
+    "date": "Май 2017",
+    "preview": "/assets/images/8.png",
+    "origin": "/assets/images/origin/8.jpg"
   }
 ]

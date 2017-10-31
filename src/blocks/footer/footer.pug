@@ -1,10 +1,17 @@
 include /blocks/link/link
+include /blocks/icon-button/icon-button
 
 mixin footer()
   +b('footer').footer
     +e.link
       +link('mailto:xenialow112@mail.ru')
         | xenialow112@mail.ru
+    +e.link
+      +icon-button('vk', 'https://vk.com/id44234469')
+    +e.link
+      +icon-button('fb', 'https://www.facebook.com/ksenya.ivashkina')
+    +e.link
+      +icon-button('ok', 'https://ok.ru/profile/573638461959')
     +e.link
       +link('tel:+79202645505')
         | + 7 (920) 264-55-05

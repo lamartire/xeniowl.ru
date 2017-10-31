@@ -1,10 +1,12 @@
 .mockup {
+  flex: 0 0 calc(100% / 3 - 20px);
   position: relative;
   display: block;
-  background-position: center;
+  background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 230px;
+  margin: 10px;
 
   &:before {
     display: block;
@@ -23,6 +25,15 @@
       animation: .75s rotate;
     }
   }
+}
+
+.mockup__link {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  cursor: pointer;
 }
 
 .mockup__content {
@@ -59,6 +70,18 @@
 
 .mockup__date {
   color: var(--grey);
+}
+
+@media (max-width: 980px) {
+  .mockup {
+    flex: 0 0 calc(100% / 2 - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .mockup {
+    flex: 1 1 auto;
+  }
 }
 
 @keyframes rotate {

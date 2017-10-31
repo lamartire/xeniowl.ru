@@ -4,6 +4,7 @@ include /blocks/header/header
 include /blocks/container/container
 include /blocks/footer/footer
 include /blocks/anchor/anchor
+include /blocks/modal/modal
 
 +head('Simple template')
 
@@ -13,6 +14,7 @@ body
     block content
   +anchor('contact')
     +footer
+  +modal
 
   script(src='/assets/js/app.js')
   script(async src="https://www.googletagmanager.com/gtag/js?id=UA-67511662-2")
