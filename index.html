@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta>
   <link rel="stylesheet" href="/assets/css/main.css">
-  <title>Simple template</title>
+  <title>Ксения Ивашкина -- Дизайнер</title>
 </head>
 <body>
   <header class="header">
@@ -24,8 +24,8 @@
   <div class="container">
     <div class="anchor" data-anchor="showcase">
       <section class="section">
-        <section class="mockups-showcase">
-          <div class="mockup" style="background-image: url(/assets/images/1.png);"><a class="mockup__link" data-origin="/assets/images/origin/1.jpg"></a>
+        <section class="mockups-showcase" id="showcase">
+          <div class="mockup" style="background-image: url(/assets/images/1.png);"><a class="mockup__link" href="/assets/images/origin/1.jpg"></a>
             <div class="mockup__content">
               <h4 class="mockup__title">For Rest
               </h4>
@@ -33,7 +33,7 @@
               </div>
             </div>
           </div>
-          <div class="mockup" style="background-image: url(/assets/images/2.png);"><a class="mockup__link" data-origin="/assets/images/origin/2.jpg"></a>
+          <div class="mockup" style="background-image: url(/assets/images/2.png);"><a class="mockup__link" href="/assets/images/origin/2.jpg"></a>
             <div class="mockup__content">
               <h4 class="mockup__title">Nedvizhimost
               </h4>
@@ -41,7 +41,7 @@
               </div>
             </div>
           </div>
-          <div class="mockup" style="background-image: url(/assets/images/3.png);"><a class="mockup__link" data-origin="/assets/images/origin/3.jpg"></a>
+          <div class="mockup" style="background-image: url(/assets/images/3.png);"><a class="mockup__link" href="/assets/images/origin/3.jpg"></a>
             <div class="mockup__content">
               <h4 class="mockup__title">Life Health
               </h4>
@@ -49,7 +49,7 @@
               </div>
             </div>
           </div>
-          <div class="mockup" style="background-image: url(/assets/images/4.png);"><a class="mockup__link" data-origin="/assets/images/origin/4.jpg"></a>
+          <div class="mockup" style="background-image: url(/assets/images/4.png);"><a class="mockup__link" href="/assets/images/origin/4.jpg"></a>
             <div class="mockup__content">
               <h4 class="mockup__title">Life Health
               </h4>
@@ -57,7 +57,7 @@
               </div>
             </div>
           </div>
-          <div class="mockup" style="background-image: url(/assets/images/5.png);"><a class="mockup__link" data-origin="/assets/images/origin/5.jpg"></a>
+          <div class="mockup" style="background-image: url(/assets/images/5.png);"><a class="mockup__link" href="/assets/images/origin/5.jpg"></a>
             <div class="mockup__content">
               <h4 class="mockup__title">Nefco
               </h4>
@@ -65,7 +65,7 @@
               </div>
             </div>
           </div>
-          <div class="mockup" style="background-image: url(/assets/images/6.png);"><a class="mockup__link" data-origin="/assets/images/origin/6.jpg"></a>
+          <div class="mockup" style="background-image: url(/assets/images/6.png);"><a class="mockup__link" href="/assets/images/origin/6.jpg"></a>
             <div class="mockup__content">
               <h4 class="mockup__title">Photografy
               </h4>
@@ -73,7 +73,7 @@
               </div>
             </div>
           </div>
-          <div class="mockup" style="background-image: url(/assets/images/7.png);"><a class="mockup__link" data-origin="/assets/images/origin/7.jpg"></a>
+          <div class="mockup" style="background-image: url(/assets/images/7.png);"><a class="mockup__link" href="/assets/images/origin/7.jpg"></a>
             <div class="mockup__content">
               <h4 class="mockup__title">Photografy (мобильная версия)
               </h4>
@@ -81,7 +81,7 @@
               </div>
             </div>
           </div>
-          <div class="mockup" style="background-image: url(/assets/images/8.png);"><a class="mockup__link" data-origin="/assets/images/origin/8.jpg"></a>
+          <div class="mockup" style="background-image: url(/assets/images/8.png);"><a class="mockup__link" href="/assets/images/origin/8.jpg"></a>
             <div class="mockup__content">
               <h4 class="mockup__title">TimePad
               </h4>
@@ -127,11 +127,41 @@
       </div>
     </footer>
   </div>
-  <div class="modal">
-    <div class="modal__inner">
-      <div class="modal__content">
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+          <div class="pswp__container">
+              <div class="pswp__item"></div>
+              <div class="pswp__item"></div>
+              <div class="pswp__item"></div>
+          </div>
+          <div class="pswp__ui pswp__ui--hidden">
+              <div class="pswp__top-bar">
+                  <div class="pswp__counter"></div>
+                  <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                  <button class="pswp__button pswp__button--share" title="Share"></button>
+                  <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                  <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                  <div class="pswp__preloader">
+                      <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                          <div class="pswp__preloader__donut"></div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                  <div class="pswp__share-tooltip"></div>
+              </div>
+              <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+              </button>
+              <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+              </button>
+              <div class="pswp__caption">
+                  <div class="pswp__caption__center"></div>
+              </div>
+          </div>
       </div>
-    </div>
   </div>
   <script src="/assets/js/app.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-67511662-2"></script>
