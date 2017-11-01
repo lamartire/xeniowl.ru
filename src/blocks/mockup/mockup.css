@@ -54,17 +54,18 @@
   bottom: 0;
   margin: auto;
   text-align: center;
-  font-size: 14px;
   line-height: 1.4;
   visibility: hidden;
 }
 
 .mockup__title {
+  font-size: 15px;
   margin-top: auto;
   color: var(--blue);
 }
 
 .mockup__date {
+  font-size: 12px;
   margin-bottom: auto;
   color: var(--grey);
 }
