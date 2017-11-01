@@ -1,8 +1,7 @@
 import initMenu from './blocks/menu/menu'
-import initMockups from './blocks/mockup/mockup'
-import createModal from './blocks/modal/modal'
+import initGallery from './blocks/pswp/pswp'
 
 window.onload = () => {
   initMenu()
-  initMockups(createModal())
+  initGallery()
 }

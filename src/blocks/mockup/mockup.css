@@ -59,16 +59,13 @@
   visibility: hidden;
 }
 
-.mockup__date,
 .mockup__title {
   margin-top: auto;
-}
-
-.mockup__title {
   color: var(--blue);
 }
 
 .mockup__date {
+  margin-bottom: auto;
   color: var(--grey);
 }
 

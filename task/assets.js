@@ -14,4 +14,11 @@ gulp.task('optimize-images', () => {
     .pipe(browserSync.stream())
 })
 
-gulp.task('move-assets', ['move-fonts', 'optimize-images'])
+gulp.task('pswp', () => {
+  gulp.src('node_modules/photoswipe/dist/default-skin/**/*')
+    .pipe(gulp.dest('dist/assets/css'))
+})
+
+gulp.task('move-deps', ['pswp'])
+
+gulp.task('move-assets', ['move-fonts', 'optimize-images', 'move-deps'])

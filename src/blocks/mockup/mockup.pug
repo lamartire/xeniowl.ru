@@ -1,6 +1,6 @@
 mixin mockup(data)
   +b.mockup(style=`background-image: url(${data.preview})`)
-    +e('a').link(data-origin=`${data.origin}`)
+    +e('a').link(href=`${data.origin}`)
     +e.content
       +e('h4').title
         | #{data.title}
