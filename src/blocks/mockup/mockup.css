@@ -64,10 +64,14 @@
   color: var(--blue);
 }
 
-.mockup__date {
+.mockup__date,
+.mockup__additional {
   font-size: 12px;
-  margin-bottom: auto;
   color: var(--grey);
+}
+
+.mockup__date {
+  margin-bottom: auto;
 }
 
 @media (max-width: 980px) {

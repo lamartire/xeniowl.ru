@@ -4,5 +4,8 @@ mixin mockup(data)
     +e.content
       +e('h4').title
         | #{data.title}
+      if (data.additional)
+        +e.additional
+          | #{data.additional}
       +e.date
         | #{data.date}

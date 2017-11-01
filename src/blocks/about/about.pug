@@ -1,14 +1,19 @@
 include /blocks/button/button
 include /blocks/anchor/anchor
 
-mixin about(paragraphs)
+mixin about()
   +b.about
     +e('h2').title
       | Привет! Меня зовут Ксения!
-    each paragraph in paragraphs
-      +e('p').info
-        | #{paragraph.text}
+    +e('p').info
+      | Я творческий и увлеченный человек, находящийся в постоянном поиске новый целей. Инструменты, с которыми я работаю: Adobe Photoshop, Adobe Illustator, Adobe XD, Adobe Animate, Axure, Art Rage, из которых Adobe Photoshop доставляет мне особое удовольствие.
+    +e('p').info
+      | Регулярно совершенствую свои навыки и обновляю свои знания. Слежу за трендами в сфере
+      br
+      | веб-дизайна и графики. Повышаю квалификацию в онлайн университете "Нетология". Неравнодушна к типографике и каллиграфии.
+    +e('p').info
+      | Из увлечений на первое место ставлю изобразительное искусство и музыку. Для более подробного ознакомления со мной, можно скачать мое резюме ниже.
     +e.button
       +anchor('resume')
         +button('/static/Ivashkina-designer-resume.pdf', 'blue')
-          | Скачать резюме
+          | Посмотреть резюме
