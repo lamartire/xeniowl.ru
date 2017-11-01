@@ -1,6 +1,6 @@
 mixin button(href, color)
   if href
-    +b('a')(class=`button_${color}` href=`${href}`)
+    +b('a')(class=`button_${color}` href=`${href}` target="_blank")
       block
   else
     +b('button')(class=`button_${color}`)

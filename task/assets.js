@@ -19,6 +19,11 @@ gulp.task('pswp', () => {
     .pipe(gulp.dest('dist/assets/css'))
 })
 
+gulp.task('copy-static', () => {
+  gulp.src('src/static/**/*')
+    .pipe(gulp.dest('dist/static'))
+})
+
 gulp.task('move-deps', ['pswp'])
 
-gulp.task('move-assets', ['move-fonts', 'optimize-images', 'move-deps'])
+gulp.task('move-assets', ['move-fonts', 'optimize-images', 'move-deps', 'copy-static'])
