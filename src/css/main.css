@@ -1,9 +1,14 @@
+/* External */
 @import '../../node_modules/reset-css/reset.css';
 @import '../../node_modules/photoswipe/dist/photoswipe.css';
 @import '../../node_modules/photoswipe/dist/default-skin/default-skin.css';
+
+/* Base */
 @import './root';
 @import './fonts.css';
 @import './basic.css';
+
+/* Blocks */
 @import '../blocks/about/about.css';
 @import '../blocks/button/button.css';
 @import '../blocks/container/container.css';
@@ -16,3 +21,5 @@
 @import '../blocks/mockups-showcase/mockups-showcase.css';
 @import '../blocks/section/section.css';
 @import '../blocks/icon-button/icon-button.css';
+@import '../blocks/title/title.css';
+@import '../blocks/showcase-section/showcase-section.css';

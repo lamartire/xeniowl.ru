@@ -3,11 +3,16 @@ include /blocks/mockups-showcase/mockups-showcase
 include /blocks/anchor/anchor
 include /blocks/section/section
 include /blocks/about/about
+include /blocks/showcase-section/showcase-section
 
 block content
   +anchor('showcase')
-    +section
+    +showcase-section('Веб-дизайн')
       +mockups-showcase(getData('mockups'))
+    +showcase-section('Иллюстрации')
+      +mockups-showcase(getData('illustrations'))
+    +showcase-section('Стилизованные портреты')
+      +mockups-showcase(getData('portraits'))
   +anchor('about')
     +section
       +about

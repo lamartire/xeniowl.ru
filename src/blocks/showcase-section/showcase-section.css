@@ -1,0 +1,15 @@
+.showcase-section {
+  display: block;
+  max-width: 910px;
+  margin: 0 auto 100px;
+  padding: 0 20px;
+  box-sizing: border-box;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.showcase-section__title {
+  padding: 0 10px;
+}

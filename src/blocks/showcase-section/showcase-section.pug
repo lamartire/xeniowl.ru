@@ -1,0 +1,8 @@
+include /blocks/title/title
+
+mixin showcase-section(title)
+  +b('section').showcase-section
+    +e.title
+      +title
+        | #{title}                    
+    block

@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Plants and flowers",
+    "date": "Set 1",
+    "preview": "/assets/images/illustration/6.jpg",
+    "origin": "/assets/images/illustration/origin/6.jpg"
+  },
+  {
+    "title": "Soil texture",
+    "date": "Set 2",
+    "preview": "/assets/images/illustration/2.jpg",
+    "origin": "/assets/images/illustration/origin/2.jpg"
+  },
+  {
+    "title": "Robot assistant",
+    "date": "Set 3",
+    "preview": "/assets/images/illustration/3.jpg",
+    "origin": "/assets/images/illustration/origin/3.jpg"
+  },
+  {
+    "title": "Women workers",
+    "date": "Set 4",
+    "preview": "/assets/images/illustration/4.jpg",
+    "origin": "/assets/images/illustration/origin/4.jpg"
+  },
+  {
+    "title": "Mining farm",
+    "date": "Set 5",
+    "preview": "/assets/images/illustration/5.jpg",
+    "origin": "/assets/images/illustration/origin/5.jpg"
+  },
+  {
+    "title": "Drawn badges",
+    "date": "Set 6",
+    "preview": "/assets/images/illustration/1.jpg",
+    "origin": "/assets/images/illustration/origin/1.jpg"
+  },
+  {
+    "title": "Data security",
+    "date": "Set 7",
+    "preview": "/assets/images/illustration/7.jpg",
+    "origin": "/assets/images/illustration/origin/7.jpg"
+  },
+  {
+    "title": "Football championship",
+    "date": "Set 8",
+    "preview": "/assets/images/illustration/8.jpg",
+    "origin": "/assets/images/illustration/origin/8.jpg"
+  },
+  {
+    "title": "Cryptocurrency",
+    "date": "Set 9",
+    "preview": "/assets/images/illustration/9.jpg",
+    "origin": "/assets/images/illustration/origin/9.jpg"
+  }
+]
