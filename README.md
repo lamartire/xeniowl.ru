@@ -1,6 +1,6 @@
 # Markup without headache
 
-[![JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+[![JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard) [![Greenkeeper badge](https://badges.greenkeeper.io/lamartire/xeniowl.ru.svg)](https://greenkeeper.io/)
 
 ## Commands
 
